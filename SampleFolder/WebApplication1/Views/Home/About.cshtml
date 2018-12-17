@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart Ripple Badge </title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    
+
+</head>
+<body>
+    <div class='container'>
+        <div class="wrapper">
+            <div class="headline">MY CART</div>
+            <span class='cart-badge' id="targetEl" value="0">0</span>
+
+
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 202 167.3" style="enable-background:new 0 0 202 167.3;" xml:space="preserve">
+            <style type="text/css">
+                .st0 {
+                    fill: #FFFFFF;
+                }
+</style>
+            <g>
+            <g>
+            <path class="st0" d="M156.5,107.5H66.5c-3.4,0-6.3-2.4-7-5.6L45.8,37.2l-12.9-1c-3.9-0.3-6.9-3.7-6.6-7.6c0.3-3.9,3.7-6.9,7.6-6.6l18.3,1.4c3.2,0.2,5.8,2.5,6.4,5.6l13.7,64.2h78.4L161,45.5c0.8-3.9,4.6-6.3,8.5-5.5c3.9,0.8,6.3,4.6,5.5,8.5l-11.5,53.4C162.7,105.1,159.8,107.5,156.5,107.5z" />
+				</g>
+            <circle class="st0" cx="82.1" cy="130.8" r="14.2" />
+            <circle class="st0" cx="142" cy="130.8" r="14.2" />
+			</g>
+		</svg>
+
+
+        </div>
+    </div>
+
+    <div class="container-bottom">
+        <button id="triggerEl">ADD TO CART</button>
+        <button class="button-secondary reset-button" id="reset">Reset</button>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="~/js/index.js"></script>
+
+
+</body>
+</html>
+
